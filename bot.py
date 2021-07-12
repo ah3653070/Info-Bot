@@ -1,7 +1,7 @@
 # Made with Python3
-# (C) Vivek-TP and FayasNoushad
+# (C) Abdul Haseeb @Royalbotz
 
-import os
+import 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -20,23 +20,22 @@ I am a Simple Telegram Info Gathering Bot, Click /help to know my Commands and m
 HELP_TEXT = """
 🤔 How to use me?
 
-⭕️ Forward a Message for take it's Details (in Private)
+🔶 Forward a Message for take it's Details (in Private)
 
-⭕️ Send any Media to take its Details (in private)
+🔶 Send any Media to take its Details (in private)
 
-⭕️ Reply /info to a Message to take Message Details
+🔶 Reply /info to a Message to take Message Details
 
-⭕️ Use /info Command to take your Details
+🔶 Use /info Command to take your Details
 
-⭕️ Use /id in Group or Channel to get Unique Telegram ID
+🔶 Use /id in Group or Channel to get  Telegram ID
 """
 ABOUT_TEXT = """
 - **Bot :** `Info Bot`
 - **Creator :** [Royalbotz](https://telegram.me/Royalbotz)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://t.me/Royalbotz/38)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
+- **Vertion :** 0.2.1
 - **Channel :** [Royalbotz](https://t.me/Royalbotz)
 """
 
@@ -61,7 +60,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="🔶 channel 🔶", url=f"https://t.me/Royalbotz")
         ]]
     )
                 
