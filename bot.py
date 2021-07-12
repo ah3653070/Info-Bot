@@ -32,30 +32,30 @@ HELP_TEXT = """
 """
 ABOUT_TEXT = """
 - **Bot :** `Info Bot`
-- **Creator :** [Vivek](https://telegram.me/Vivek_KERALA)
+- **Creator :** [Royalbotz](https://telegram.me/Royalbotz)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/vivek-tp/Info-Bot)
+- **Source :** [Click here](https://t.me/Royalbotz/38)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+- **Channel :** [Royalbotz](https://t.me/Royalbotz)
 """
 
 BOT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="⚠️ Updates ⚠️", url=f"https://t.me/Royalbotz")
         ]]
     )
 
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="🌐 channel 🌐", url=f"https://t.me/Royalbotz")
         ]]
     )
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="SOURCE", url=f"https://t.me/Royalbotz/38")
         ]]
     )
 
