@@ -15,7 +15,7 @@ Bot = Client(
 START_TEXT = """
 <b>Hello {}
 
-I am a Simple Telegram Info Gathering Bot, Click /help to know my Commands and my uses<b>
+I am a Simple Telegram Info Gathering Bot, Click /help to know my Commands and my uses,  [Add to groups](http://t.me/bot_username?startgroup=true)<b>
 """
 HELP_TEXT = """
 🤔 How to use me?
@@ -102,11 +102,11 @@ async def info(bot, update):
     else:
         last_name = "None"
     text = f"""
-**🙋🏻‍♂️ First Name :** {update.from_user.first_name}
+**First Name :** {update.from_user.first_name}
 
-**🧖‍♂️ Your Second Name :** {last_name}
+** Second Name :** {last_name}
 
-**🧑🏻‍🎓 Your Username :** {update.from_user.username}
+**Your Username :** {update.from_user.username}
 
 **🆔 Your Telegram ID :** {update.from_user.id}
 
